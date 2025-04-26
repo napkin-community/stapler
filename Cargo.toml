@@ -1,0 +1,15 @@
+[package]
+name = "stapler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.32", features = ["derive"] }
+color-eyre = "0.6.3"
+colored = "3.0.0"
+dialoguer = "0.11.0"
+directories = "6.0.0"
+eyre = "0.6.12"
+indicatif = "0.17.11"
+jiff = "0.2.10"
+ureq = "3.0.11"
